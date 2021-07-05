@@ -4,7 +4,7 @@ This repository is an official PyTorch implementation of paper:
 "BSDA-Net: A Boundary Shape and Distance Aware Joint Learning Framework for Segmenting and Classifying OCTA Images", MICCAI 2021. 
 
 "Multi-task Learning Based Ocular Disease Discrimination and FAZ
-Segmentation Utilizing OCTA Images", EMBC 2021[Coming soom]. 
+Segmentation Utilizing OCTA Images", EMBC 2021[Coming soon]. 
 
 MICCAI 2021
 
