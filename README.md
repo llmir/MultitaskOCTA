@@ -96,16 +96,16 @@ To start testing, you should set the parameters that is used for training to loa
 * loss_type: Loss used for training stage. 
 
 ## Results
-From left to right, they are respectively representation of segmentation results of FAZ using different network architecture. The bottom line represents corresponding boudnary heatmaps and signed distance maps for groundtruth. 
+From left to right, they are respectively representation of segmentation results of FAZ using different models. The bottom line represents corresponding boudnary heatmaps and signed distance maps for groundtruth. 
 
 ![Results](https://github.com/llmir/MultitaskOCTA/blob/master/Figs/results.png)
 
 ## Citation
-L. Lin$\dag$, Z. Wang$\dag$, J. Wu, Y. Huang, J. Lyu, P. Cheng, J. Wu, X. Tang*, "BSDA-Net: a boundary shape and distance aware joint learning framework for segmenting and classifying OCTA images",  In the 24th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), Strasbourg, France, September 2021.
+L. Lin, Z. Wang, J. Wu, Y. Huang, J. Lyu, P. Cheng, J. Wu, X. Tang*, "BSDA-Net: a boundary shape and distance aware joint learning framework for segmenting and classifying OCTA images",  In the 24th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), Strasbourg, France, September 2021.
 ## Contact
 Li Lin (linli55@mail2.sysu.edu.cn)
 
 Zhonghua Wang (Wzhjerry1112@gmail.com)
 
 ## Acknowledgements
-Thanks for [segmentation models pytorch](https://github.com/qubvel/segmentation_models.pytorch) for the implementation of cotraining codes. 
+Thanks for [segmentation models pytorch](https://github.com/qubvel/segmentation_models.pytorch) for the implementation of segmentation codes. 
