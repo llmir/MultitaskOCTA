@@ -10,7 +10,7 @@ MICCAI 2021
 
 ![Network](https://github.com/llmir/MultitaskOCTA/blob/master/Figs/Network.png)
 
-EMBC 2021 [Coming soom]
+EMBC 2021 [Coming soon]
 
 
 ## Dependencies
