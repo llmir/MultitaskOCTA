@@ -108,4 +108,4 @@ Li Lin (linli55@mail2.sysu.edu.cn)
 Zhonghua Wang (Wzhjerry1112@gmail.com)
 
 ## Acknowledgements
-Thanks for [segmentation models pytorch](https://github.com/qubvel/segmentation_models.pytorch) for the implementation of segmentation codes. 
+Thanks for [segmentation models pytorch](https://github.com/qubvel/segmentation_models.pytorch) for the implementation of the segmentation codes. 
