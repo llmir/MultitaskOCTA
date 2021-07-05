@@ -7,8 +7,7 @@ This repository is an official PyTorch implementation of paper:
 Segmentation Utilizing OCTA Images", EMBC 2021[Coming soom]. 
 
 MICCAI 2021
-
-
+![https://github.com/llmir/MultitaskOCTA/blob/master/Figs/Network.png]
 
 EMBC 2021 [Coming soom]
 
@@ -98,7 +97,7 @@ To start testing, you should set the parameters that is used for training to loa
 ## Results
 From left to right, they are respectively representation of segmentation results of FAZ using different network architecture. The bottom line represents corresponding boudnary heatmaps and signed distance maps for groundtruth. 
 
-
+![https://github.com/llmir/MultitaskOCTA/blob/master/Figs/results.png]
 
 ## Citation
 L. Lin$\dag$, Z. Wang$\dag$, J. Wu, Y. Huang, J. Lyu, P. Cheng, J. Wu, X. Tang*, "BSDA-Net: a boundary shape and distance aware joint learning framework for segmenting and classifying OCTA images",  In the 24th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), Strasbourg, France, September 2021.
