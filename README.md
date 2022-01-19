@@ -103,7 +103,7 @@ From left to right, they are respectively representation of segmentation results
 ## Citation
 L. Lin, Z. Wang, J. Wu, Y. Huang, J. Lyu, P. Cheng, J. Wu, X. Tang*, "BSDA-Net: a boundary shape and distance aware joint learning framework for segmenting and classifying OCTA images",  In the 24th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), Strasbourg, France, September 2021.
 ## Contact
-Li Lin (linli55@mail2.sysu.edu.cn)
+Li Lin (linli@eee.hku.hk)
 
 Zhonghua Wang (Wzhjerry1112@gmail.com)
 
