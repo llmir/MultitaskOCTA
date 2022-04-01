@@ -1,10 +1,10 @@
 # MultitaskOCTA
 This repository is an official PyTorch implementation of paper: 
 
-"BSDA-Net: A Boundary Shape and Distance Aware Joint Learning Framework for Segmenting and Classifying OCTA Images", MICCAI 2021. [**Student Travel Award**] link: [paper](https://www.researchgate.net/publication/354793161_BSDA-Net_A_Boundary_Shape_and_Distance_Aware_Joint_Learning_Framework_for_Segmenting_and_Classifying_OCTA_Images)
+"BSDA-Net: A Boundary Shape and Distance Aware Joint Learning Framework for Segmenting and Classifying OCTA Images", MICCAI 2021. [**Student Travel Award**] paper link: [BSDA-Net](https://www.researchgate.net/publication/354793161_BSDA-Net_A_Boundary_Shape_and_Distance_Aware_Joint_Learning_Framework_for_Segmenting_and_Classifying_OCTA_Images)
 
 "Multi-task Learning Based Ocular Disease Discrimination and FAZ
-Segmentation Utilizing OCTA Images", EMBC 2021. 
+Segmentation Utilizing OCTA Images", EMBC 2021. paper link: [paper](https://www.researchgate.net/publication/356934116_Multi-task_Learning_Based_Ocular_Disease_Discrimination_and_FAZ_Segmentation_Utilizing_OCTA_Images)
 
 MICCAI 2021
 
@@ -26,6 +26,10 @@ EMBC 2021 [Coming soon]
 * numpy
 * Tqdm
 * surface-distance
+
+### Datasets
+
+Now our processed datasets are avaliable here: [AliDrive](https://www.aliyundrive.com/s/eHpKveH3jfH) and [GoogleDrive](https://drive.google.com/drive/folders/1PIlDncAQUCG6-ffINujYOgNSJHdqLVcu?usp=sharing)
 
 ### Data Preprocessing
 Using the file *pre_dis.m* in Matlab formula for image preprocessing to generate *Boundary Heatmaps* and *Signed distanced maps (SDMs)* for training BSDA-Net. 
