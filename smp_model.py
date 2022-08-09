@@ -4,7 +4,7 @@ import torch.nn as nn
 import torch.utils.model_zoo as model_zoo
 import copy
 from segmentation_models_pytorch.encoders import get_encoder
-from segmentation_models_pytorch.unet.decoder import UnetDecoder, CenterBlock, DecoderBlock
+from segmentation_models_pytorch.decoders.unet.decoder import UnetDecoder, CenterBlock, DecoderBlock
 from segmentation_models_pytorch.base import SegmentationModel, SegmentationHead
 import segmentation_models_pytorch.base.initialization as init
 from segmentation_models_pytorch.encoders.resnet import ResNetEncoder, resnet_encoders
