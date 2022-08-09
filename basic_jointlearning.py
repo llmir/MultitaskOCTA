@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import time
-from smp_model_basic import MyUnetModel, my_get_encoder
+from smp_model import MyUnetModel, my_get_encoder
 import torch
 import os
 import glob
