@@ -181,16 +181,19 @@ def build_model(model_type, encoder, pretrain, aux=False):
     return model
 
 
-def define_loss(loss_type, weights=[3, 1, 2]):
+def define_loss(loss_type:str, weights=[3, 1, 2]):
 
+    # default
+    criterion = smp.losses.SoftCrossEntropyLoss()
+    
     if loss_type == "jaccard":
-        criterion = smp.utils.losses.JaccardLoss()
+        criterion = smp.losses.JaccardLoss()
     if loss_type == "dice":
-        criterion = smp.utils.losses.DiceLoss()
+        criterion = smp.losses.DiceLoss()
     if loss_type == "ce":
-        criterion = smp.utils.losses.CrossEntropyLoss()
+        criterion = smp.losses.SoftCrossEntropyLoss()
     if loss_type == "bcewithlogit":
-        criterion = smp.utils.losses.BCEWithLogitsLoss()
+        criterion = smp.losses.SoftBCEWithLogitsLoss()
     if loss_type == "unet":
         criterion = LossUNet(weights)
     if loss_type == "dcan":
